@@ -1,0 +1,12 @@
+[submodule "agents"]
+	path = agents
+	url = https://github.com/Arquisoft/Agents_e4a.git
+[submodule "loader"]
+	path = loader
+	url = https://github.com/Arquisoft/Loader_e4a.git
+[submodule "inciManager"]
+	path = inciManager
+	url = https://github.com/Arquisoft/InciManager_e4a.git
+[submodule "inciDashboard"]
+	path = inciDashboard
+	url = https://github.com/Arquisoft/InciDashboard_e4a.git
