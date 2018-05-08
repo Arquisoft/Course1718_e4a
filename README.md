@@ -33,6 +33,20 @@ Este es el proyecto conjunto de los 4 módulos utilizados.
 
 ## Manual de uso
 
-TODO
+### Ejecucion Loader
+
+Para ejecutar la aplicacion se debe ir al directorio *ejecucion* y una vez ahi se dispondra de tres archivos .bat:
+
+* *Help*: Para ver la ayuda de la aplicacion.
+* *Info*: Para ver la informacion sobre la aplicacion.
+* *Test*: Para realizar una ejecucion de la aplicacion.
+
+Ademas para realizar una ejecucion de la aplicacion por uno mismo se debera ejecutar en la linea de comandos la siguiente instruccion:
+
+	mvn -q exec:java -Dexec.mainClass="main.LoadAgents" -Dexec.args="Aqui iran los argumentos a usar"
+	
+	e.j.:mvn -q exec:java -Dexec.mainClass="main.LoadAgents" -Dexec.args="load src/test/resources/test.csv src/test/resources/test.xlsx"
+
+//TODO:
 
 
