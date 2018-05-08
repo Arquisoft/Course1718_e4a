@@ -63,6 +63,50 @@ Ademas para realizar una ejecucion de la aplicacion por uno mismo se debera ejec
     Login: 11223344C
     Password: 123456
     Kind: Person
+   
+### InciManager
+
+#### Ejecucion
+
+1- Descargar Apache Kafka de su página oficial.
+
+  ->https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.1/kafka_2.11-1.0.1.tgz
+
+2- Ejecutar Apache Zookeeper.
+
+  ->bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+3- Ejecutar Apache Kafka.
+
+  ->bin\windows\kafka-server-start.bat config\server.properties
+
+4- Ejecutar eclipse desde la clase Application
+
+5- Conectarse al localhost:8880
+
+6- Introducir datos para loguearte
+
+7- Consultar tus incidencias o crear una nueva
+
+8- Si seleccionas crear una nueva, rellenas los datos y lo envias
+
+
+# REST para crear una incidencia
+
+{ 
+	"login": "13864928P", 
+	"password": "123456", 
+	"kind": "Person", 
+	"name": "nombreIncidencia2", 
+	"description": "descripcionIncidencia", 
+	"location": ["11.111111","-2.222222"], 
+	"labels": "label1,label2,label3", 
+	"moreInfo": ["adInfo1","adInfo2","adInfo3"], 
+	"properties" : { 
+		"key1":"value1", 
+		"key2":"value2" 
+	} 
+}
 
 ### InciDashboard
 
