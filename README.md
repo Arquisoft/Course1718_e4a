@@ -7,7 +7,7 @@
 | [InicManager](https://github.com/Arquisoft/InciManager_e4a)     | [![Build Status](https://travis-ci.org/Arquisoft/InciManager_e4a.svg?branch=master)](https://travis-ci.org/Arquisoft/InciManager_e4a) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2f0d0b009384c8aba7deacb39b7b541)](https://www.codacy.com/app/Llambi/InciManager_e4a?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arquisoft/InciManager_e4a&amp;utm_campaign=Badge_Grade) | [![codecov](https://codecov.io/gh/Arquisoft/InciManager_e4a/branch/master/graph/badge.svg)](https://codecov.io/gh/Arquisoft/InciManager_e4a)     | http://ec2-54-149-62-135.us-west-2.compute.amazonaws.com:8880/ |
 | [InciDashboard](https://github.com/Arquisoft/InciDashboard_e4a) | ![Build Status](https://travis-ci.org/Arquisoft/InciDashboard_e4a.svg?branch=master) | ![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2f0d0b009384c8aba7deacb39b7b541)                                                                                                                    | [![codecov](https://codecov.io/gh/Arquisoft/InciDashboard_e4a/branch/master/graph/badge.svg)](https://codecov.io/gh/Arquisoft/InciDashboard_e4a) | http://ec2-18-237-92-40.us-west-2.compute.amazonaws.com:8090/  |
 
-## Authors originales
+## Authors originales de Loader y Agents
 
 * Daniel Alba Muñiz (UO245188)
 * José Luis Bugallo González (UO244702)
